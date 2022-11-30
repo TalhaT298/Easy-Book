@@ -103,7 +103,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   rel="noopener noreferrer"
-                  href="#https://www.instagram.com/talha_tarique77/"
+                  href="https://www.instagram.com/talha_tarique77/"
                   title="Instagram"
                   className="flex items-center p-1"
                 >
@@ -135,7 +135,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-6 text-sm text-center dark:text-white-400">
-          © 2022 EasyBook All rights reserved.
+        copyright © 2022 EasyBook All rights reserved.
         </div>
       </footer>
     </div>
