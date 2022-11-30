@@ -100,8 +100,8 @@ const Section = () => {
                     <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
                      Our Brand Promise
                     </h4>
-                    <p className="mt-2 dark:text-gray-400">
-                      ThriftBooks offers quality used and new books, accurately graded, at everyday low prices, delivered directly to our cherished customers. If, for any reason you are not satisfied with your purchase, please contact us and we will do our best to ensure your satisfaction.
+                    <p className="mt-2 dark:text-gray-100">
+                      EasyBook offers quality used and new books, accurately graded, at everyday low prices, delivered directly to our cherished customers. If, for any reason you are not satisfied with your purchase, please contact us and we will do our best to ensure your satisfaction.
                     </p>
                   </div>
                 </div>
