@@ -29,7 +29,7 @@ console.log(book)
         <p>Seller Name: {sellerName}</p>
         <p>phone : {sellerPhoneNumber}</p>
     </div>
-      <p>Status : <span className='text-pink-600'>{status}</span></p>
+      <p>Status : <span className='text-rose-900'>{status}</span></p>
     <div className="card-actions justify-center">
 
   
