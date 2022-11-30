@@ -23,7 +23,7 @@ const Hero = () => {
 				<PrimaryButton classes='px-8 py-3 font-semibold rounded'><Link to='/login' rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Log In</Link></PrimaryButton>
 
 
-				<Link to='/signup' rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold border rounded border-pink-500">Register</Link>
+				<Link to='/signup' rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold border rounded border-rose-900">Register</Link>
 			</div>
 		</div>
 	</div>
