@@ -58,7 +58,7 @@ body: JSON.stringify(booking)
             ✕
           </label>
           <h3 className="text-lg font-bold">
-            To book the book please fill up the form!
+            Please fill up the form to order!
           </h3>
      <form onSubmit={handleModal}>
         <input name="name" type="text"  defaultValue={user?.displayName} placeholder="Your Name" className="input input-bordered w-full max-w-full mb-2" />

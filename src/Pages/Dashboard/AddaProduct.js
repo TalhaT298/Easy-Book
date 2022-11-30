@@ -93,7 +93,7 @@ const AddaProduct = () => {
             <label className="text-sm p-4">Select a Category </label>
             <select
               name="categoryName"
-              className="select border rounded-md border-gray-300 focus:outline-pink-500 text-gray-900' select-bordered w-full max-w-xs"
+              className="select border rounded-md border-gray-300 focus:outline-rose-900 text-gray-900' select-bordered w-full max-w-xs"
           
             >
               <option default>kidsbook</option>
@@ -189,7 +189,7 @@ const AddaProduct = () => {
             <label className="text-sm p-4">Select a Category </label>
             <select
               name="status"
-              className="select border rounded-md border-gray-300 focus:outline-pink-500 text-gray-900' select-bordered w-full max-w-xs"
+              className="select border rounded-md border-gray-300 focus:outline-rose-00 text-gray-900' select-bordered w-full max-w-xs"
     
             >
              
@@ -201,7 +201,7 @@ const AddaProduct = () => {
 
           <div className="flex justify-center">
             <PrimaryButton classes="px-8 py-3 font-semibold rounded">
-              Submit
+              Submit Here
             </PrimaryButton>
           </div>
         </form>

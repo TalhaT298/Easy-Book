@@ -50,7 +50,7 @@ loggedInUser[0]?.role === 'Seller' && (
 {
 loggedInUser[0]?.role === 'Buyer' && (
   <>
-   <li><Link to="/dashboard/myorders">My Orders</Link></li>
+   <li><Link to="/dashboard/myorders">Orders</Link></li>
   </>
   
 )
