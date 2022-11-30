@@ -20,7 +20,7 @@ categoryName
           <h2 className="card-title">{name}</h2>
        
           <div className="card-actions">
-     <PrimaryButton classes={'px-8 py-3 font-semibold rounded'}>  <Link to={`/categories/${categoryName}`}><button >See Books</button></Link></PrimaryButton>
+     <PrimaryButton classes={'px-8 py-3 font-semibold rounded'}>  <Link to={`/categories/${categoryName}`}><button >See All Books</button></Link></PrimaryButton>
           </div>
         </div>
       </div>
