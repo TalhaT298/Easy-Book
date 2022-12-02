@@ -1,4 +1,4 @@
-# adminEmail: talhatarique@gmail.com #
+# adminEmail: talha@gmail.com #
 # adminPassword: 123456 #
 # Getting Started with Create React App
 
