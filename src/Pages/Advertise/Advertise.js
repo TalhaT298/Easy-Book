@@ -15,7 +15,7 @@ const Advertise = () => {
   } = useQuery({
     queryKey: ["categories"],
     queryFn: async () => {
-      const res = await fetch("https://thriftly-server.vercel.app/advertised");
+      const res = await fetch("https://app-build-server.vercel.app/advertised");
       const data = await res.json();
       return data;
     },

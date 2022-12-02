@@ -11,7 +11,7 @@ const MyOrders = () => {
     const { data: bookings = [] ,isLoading} = useQuery({
         queryKey: ['bookings', user?.email],
         queryFn: async () => {
-            const res = await fetch(`https://thriftly-server.vercel.app/bookings?email=${user?.email}`);
+            const res = await fetch(`https://app-build-server.vercel.app/bookings?email=${user?.email}`);
             const data = await res.json();
             return data;
         }

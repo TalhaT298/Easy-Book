@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       {
     path:'/categories/:name',
     element:<PrivateRoute><SingleCategory></SingleCategory></PrivateRoute>,
-    loader:({params})=>fetch(`https://thriftly-server.vercel.app/categories/${params.name}`)
+    loader:({params})=>fetch(`https://app-build-server.vercel.app/categories/${params.name}`)
       }
     ],
 

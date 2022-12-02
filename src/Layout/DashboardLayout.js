@@ -11,7 +11,7 @@ const [isAdmin] =useAdmin(user?.email);
 
 const [loggedInUser, setLoggedInUser] = useState([]);
   useEffect(() => {
-fetch(`https://thriftly-server.vercel.app/users/${user?.email}`)
+fetch(`https://app-build-server.vercel.app/users/${user?.email}`)
 .then(res=>res.json())
 .then(data=>setLoggedInUser(data))
 

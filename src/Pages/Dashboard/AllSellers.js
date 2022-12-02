@@ -12,7 +12,7 @@ const AllSellers = () => {
   const { data: users = [], refetch } = useQuery({
     queryKey: ["users"],
     queryFn: async () => {
-      const res = await fetch("https://thriftly-server.vercel.app/users/seller");
+      const res = await fetch("https://app-build-server.vercel.app/users/seller");
       const data = await res.json();
       return data;
     },
@@ -21,7 +21,7 @@ const AllSellers = () => {
  
 
   const handleDelete = (user) => {
-    fetch(`https://thriftly-server.vercel.app/users/${user._id}`, {
+    fetch(`https://app-build-server.vercel.app/users/${user._id}`, {
       method: "DELETE",
       headers: {
         authorization: `bearer ${localStorage.getItem("accessToken")}`,

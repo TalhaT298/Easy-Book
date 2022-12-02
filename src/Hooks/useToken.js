@@ -7,7 +7,7 @@ const [token,setToken]=useState('');
 useEffect(()=>{
 
 if(email){
-        fetch(`https://thriftly-server.vercel.app/jwt?email=${email}`)
+        fetch(`https://app-build-server.vercel.app/jwt?email=${email}`)
 .then(res => res.json())
 .then(data =>{
   console.log(data);

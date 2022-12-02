@@ -12,14 +12,14 @@ const AllUsers = () => {
   const { data: users = [], refetch } = useQuery({
     queryKey: ["users"],
     queryFn: async () => {
-      const res = await fetch("https://thriftly-server.vercel.app/users");
+      const res = await fetch("https://app-build-server.vercel.app/users");
       const data = await res.json();
       return data;
     },
   });
 
   // const handleMakeAdmin = (id) => {
-  //   fetch(`https://thriftly-server.vercel.app/users/admin/${id}`, {
+  //   fetch(`https://app-build-server.vercel.app/users/admin/${id}`, {
   //     method: "PUT",
   //     headers: {
   //       authorization: `bearer ${localStorage.getItem("accessToken")}`,
@@ -35,7 +35,7 @@ const AllUsers = () => {
   // };
 
   const handleDelete = (user) => {
-    fetch(`https://thriftly-server.vercel.app/users/${user._id}`, {
+    fetch(`https://app-build-server.vercel.app/users/${user._id}`, {
       method: "DELETE",
       headers: {
         authorization: `bearer ${localStorage.getItem("accessToken")}`,

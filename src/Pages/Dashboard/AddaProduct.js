@@ -49,7 +49,7 @@ const AddaProduct = () => {
     };
     console.log(service);
 
-    fetch('https://thriftly-server.vercel.app/categories',{
+    fetch('https://app-build-server.vercel.app/categories',{
         method:'POST',
         headers:{
             'content-type':'application/json'

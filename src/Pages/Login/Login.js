@@ -51,7 +51,7 @@ signin(email, password)
   }
     const googleLoggedInUseInfo = (name, email) => {
     const info = { name, email, role: "Buyer" };
-    fetch("https://thriftly-server.vercel.app/user", {
+    fetch("https://app-build-server.vercel.app/user", {
       method: "POST",
       headers: {
         "content-type": "application/json",
