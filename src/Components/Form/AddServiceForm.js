@@ -131,7 +131,7 @@ const AddServiceForm = () => {
 
             <div className='space-y-1 text-sm'>
               <label htmlFor='description' className='block text-gray-600'>
-                Description.
+                Description
               </label>
 
               <textarea
